@@ -8,10 +8,11 @@
 }
 
 .navbar-default .navbar-text {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 39px;
     color: #090909;
-    margin-left: 10px;
+    font-weight: bold;
+    margin-left: 35px;
   }
   .navbar-nav>li>a{
       line-height: 39px;
@@ -20,8 +21,7 @@
   }
   .navbar-default .navbar-nav>li>a {
     color: #0f0e0e;
-    background-color:#d15050;
-    border: 2px solid #e36c63;
+   
     font-weight: bold;
 
 }
