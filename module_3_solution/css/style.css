@@ -1,0 +1,117 @@
+/* ----------------------------Header-----------------------------*/
+#header-nav button {
+    margin-top: 22px;
+}
+.navbar{
+    background-color: #d82438;
+    border: 2px solid orangered;
+}
+
+.navbar-default .navbar-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 39px;
+    color: #090909;
+    margin-left: 10px;
+  }
+  .navbar-nav>li>a{
+      line-height: 39px;
+      text-align: center;
+      font-size: 31px;
+  }
+  .navbar-default .navbar-nav>li>a {
+    color: #0f0e0e;
+    background-color:#d15050;
+    border: 2px solid #e36c63;
+    font-weight: bold;
+
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color:#e36c63;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #070606;
+}
+.navbar-default .navbar-toggle {
+    border-color: #070707;
+    border-width: medium;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(206, 180, 180);
+    background-color: transparent;
+    border-radius: 29px;
+    margin-top: -8px;
+    border: 2px solid #0b0a0a;
+   
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #d82438;
+}
+.navbar-toggle{
+    margin-top: -60px;
+}
+@media (min-width:768px){
+    .navbar-nav{
+        display: none;
+    }
+}
+/*------------------xxx----header end------xxx-------*/
+body{
+    background-color: #ebe3ca;
+}
+#menu{
+    text-align: center;
+}
+#end{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+.title{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 37px;
+    margin-top: -42px;
+    margin-bottom: 33px;
+}
+.col-xs-6{
+    margin-top: 40px;
+}
+.col-xs-12{
+    margin-top: 40px;
+}
+.col-md-4{
+    margin-top: 40px;
+}
+.data{
+    background-color: lightgreen;
+    border: 2px solid green;
+    padding: 15px;
+    padding-top: 75px;
+}
+#data{
+    
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.row {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+@media (min-width:1px) and (max-width:767px){
+
+.col-xs-6{
+    width: 100%;
+}
+.row {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
