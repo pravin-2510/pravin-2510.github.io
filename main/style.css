@@ -1,0 +1,128 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+/* Style all font awesome icons */
+.fa {
+    
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-instagram {
+    background: #da2932;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-linkedin {
+    background: #160285;
+    color: white;
+  }
+
+.navbar-nav {
+    text-align: center;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #efeaea;
+}
+.container-fluid{
+    background-image: url(/image/best.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    background-color:#efeaea;
+    font-weight: bold;
+    font-family: 'Love Ya Like A Sister', cursive;
+   
+}
+.container-fluid .navbar-brand {
+    margin-left: 1px;
+    font-weight: bold;
+    color: #f60658;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #da161600;
+    background-color: #ebe6e6;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f30a0a;
+}
+.navbar-default .navbar-toggle{
+    border-color: #dc1313;
+}
+/*-------------------------------navbar end-----------------------------*/
+.main{
+    
+    background-image: url(/image/aeroplane.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -20px;
+    
+}
+#id{
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    color: lime;
+    margin-bottom: 347px;
+}
+}
+#id a{
+    text-decoration: none;
+    text-align: center;
+    color: lime;
+}
+#main{
+    text-align:center;
+    color:#abd1e3;
+    padding: 10px; 
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+#sam{
+    padding-bottom: 159px;
+}
+#id a:hover{
+    text-align: center;
+    color:white;
+}
+@media (max-width:768px){
+    .main{
+        background-image: url(/image/aeroplane2.jpg);
+        background-size: 100%;
+        
+    }
+    #main{
+        font-size: 20px;
+    }
+    #id a:hover{
+        font-size: 13px;
+        text-align: center;
+        color:white;
+    }
+    #id a{
+        font-size: 13px;
+        text-align: center;
+        color: lime;
+    }
+    
+}
+#follow a{
+    padding: 4px;
+}
+.container{
+    text-align: center;
+}
