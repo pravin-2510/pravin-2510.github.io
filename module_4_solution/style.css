@@ -1,0 +1,16 @@
+body{
+    margin-top: 250px;
+    background-color: lightgoldenrodyellow;
+    border: 30px solid yellowgreen;
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
